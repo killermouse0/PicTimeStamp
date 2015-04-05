@@ -1,5 +1,7 @@
 #!/usr/bin/env perl
 
+# Author : Stephane KATTOOR
+
 use strict;
 use warnings;
 
@@ -15,6 +17,7 @@ my %inodes;
 my %knownTypes = (
 	"JPEG"		=> { 'ext' => '.jpg'},
 	"3GP"		=> { 'ext' => '.3gp'},
+	"MP4"		=> { 'ext' => '.mp4'},
 );
 
 GetOptions("src=s" => \$src,
