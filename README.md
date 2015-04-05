@@ -3,6 +3,8 @@
 A simple script which creates timestamped links to pictures from a folder into
 another folder.
 
+Depends on the Image::ExifTool perl module.
+
 A sample run :
 
 	kattoo@roadrunner Pictures % ~/Dev/PicTimeStamp/PicTimeStamp.pl --src Camera\
